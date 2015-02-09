@@ -1,0 +1,9 @@
+I found that the GO language allows for all types of programming style.
+But, in general, I found that the naming convention for the GO language
+should be short and mixCamel format.
+
+But, I also found that the guys at SOUND CLOUD has a nice and informative
+way of using the GO language for large scale production code in the real
+world. The following link is a video of the conference:
+
+https://www.youtube.com/watch?v=Y1-RLAl7iOI
