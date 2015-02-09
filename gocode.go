@@ -26,6 +26,11 @@ func modifyAvg(t *student) {
 	*t = student{average: 99, name: t.name}
 }
 
+//Multiple returns
+func SumProductDiff(i, j int) (int, int, int) {
+    return i+j, i*j, i-j
+}
+
 func main() {
 	var csClass [3]student
 	csClass[0].name = "Mat Jones"
@@ -42,5 +47,8 @@ func main() {
 
 	modifyAvg(&csClass[0])
 	fmt.Printf("now, %s, average test score is %d percent.\n", csClass[0].name, csClass[0].average)
+	
+	sum, prod, diff := SumProductDiff(3,4)
+    fmt.Println("Sum:", sum, "| Product:",prod, "| Diff:", diff)
 
 }
