@@ -16,6 +16,7 @@ type student struct {
 	average    int
 }
 
+//Functions
 func avg(t1, t2 int) int {
 	var x int = (t1 + t2) / 2
 	return x
@@ -30,6 +31,10 @@ func modifyAvg(t *student) {
 func SumProductDiff(i, j int) (int, int, int) {
     return i+j, i*j, i-j
 }
+
+const (
+	pie = 3.14
+)
 
 func main() {
 	var csClass [3]student
@@ -50,5 +55,13 @@ func main() {
 	
 	sum, prod, diff := SumProductDiff(3,4)
     fmt.Println("Sum:", sum, "| Product:",prod, "| Diff:", diff)
+    
+    var r float64
+	fmt.Printf("Enter the radius? ")
+	fmt.Scanf("%f", &r) //geting input
+
+	var answer float64 = (pie) * (r * r)
+
+	fmt.Printf("The radius of the circle is: %f", answer)
 
 }
