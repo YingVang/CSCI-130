@@ -36,6 +36,11 @@ const (
 	pie = 3.14
 )
 
+
+//Functions that returns functions
+
+
+
 func main() {
 	var csClass [3]student
 	csClass[0].name = "Mat Jones"
