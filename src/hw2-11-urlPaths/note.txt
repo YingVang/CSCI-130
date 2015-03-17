@@ -1,0 +1,4 @@
+To test, type in the command:  goapp serve hw2-11urlPaths
+
+Once it serves, go to the web browser, type in:  “http://localhost:8080”  This will display the default path, and then to see a different path to a different type in:
+“http://localhost:8080/sayWhat”  This will display whatever is in the sayWhat function.
