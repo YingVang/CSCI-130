@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+=================
+HEADER
+=================
+*/
+
+header {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 5em;
+}
+
+ul {
+    display: none;
+}
+
+h1 {
+    color: #484848;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 19px;
+}
+
+header h1 {
+    text-align: center;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+body{
+	height:100%;
+    width:100%;
+    background-image: url("http://localhost/background.jpg");/*your background image*/  
+    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+    /*css hack for ie*/     
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+}
