@@ -1,3 +1,9 @@
+//source:  https://gist.github.com/ikai/1f746b018664f604e4cc
+
+//Need to figure out how to create the client_secrets.json file correctly for this code to work
+//so I I can add a webpage to it, not quite there yet yet understanding this code.
+
+
 package main
  
 import (
